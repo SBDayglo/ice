@@ -27,10 +27,9 @@ Synthego ICE will not infringe any patent, trademark or other rights.
 """
 
 import numpy as np
-import os
-import subprocess
 from ice.__version__ import __version__
 
+"""got rido"""
 
 def round_list(in_list, num_digits):
     return [round(i, num_digits) for i in in_list]
